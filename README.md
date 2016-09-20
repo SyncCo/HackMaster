@@ -1,2 +1,0 @@
-# HackMaster
-Random
