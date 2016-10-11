@@ -2,7 +2,8 @@ Overall Look and Feelof HackMaster
 ==================================
 The overall look and feel should be minimalist with beautiful typography.It willincorporate transparency to really show off our typography and to edge the logo in the users mind.
 
-The website should be easy to follow and capivating design
+The website should be easy to follow and minimalistic.Simple and elegant like 
+our design
 
 Colours
 =====================
@@ -14,11 +15,11 @@ A large logo shall go in the back. The logo will be of a head with a hat and in 
 
 Typography
 =====================
-
-Links
+The font on the menu bar will an underlined size 26 times new roman.
+Link 
 ========================
-
+The links will be attached to each button. 
 
 Buttons
 =================================
-
+The menu bar will have three buttons."About" which will link to a webpage explaining our product and its uses. "Team" which will be about the team members and their contributions,roles e.t.c."Prices" which will explain the various prices and models for the different memberships for companies looking to place hiring ads and attend/host hackathons.
