@@ -28,8 +28,9 @@ Text colour: #134C00
 
 /*Logo*/
 
-.logo {
+.header .container .logo {
  height: 30px;
+ position: left;
 }
 
 /*Text*/
