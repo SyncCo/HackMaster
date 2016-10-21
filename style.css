@@ -24,6 +24,9 @@ Text colour: #134C00
 
 .header .li {
   float: right;
+ font-family: 'Futura', sans-serif;
+ color: #33CF00;
+
 }
 
 .header .li a {
