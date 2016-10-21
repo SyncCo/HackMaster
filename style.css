@@ -58,7 +58,8 @@ Text colour: #134C00
 h1 {
  font-family: 'Futura', sans-serif;
     color: #33CF00;
-    font-size: 30pt;
+    font-weight: bold;
+ 
 }
  
 h2 {
