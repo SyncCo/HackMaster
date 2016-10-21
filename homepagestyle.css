@@ -39,7 +39,7 @@ Text colour: #134C00
 }
 
 .header .li a:hover:not(.active) {
-    background-color: white;
+    background-color: black;
 }
 
 .header .active {
@@ -62,6 +62,7 @@ h1 {
  font-family: 'Futura', sans-serif;
     color: #33CF00;
     font-weight: bold;
+ align-content: center;
  
 }
  
