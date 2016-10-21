@@ -1,1 +1,30 @@
 
+/* Colours:
+
+Backgorund base: #242424
+Header colour: #000000
+Button text colours: #33CF00
+Text colour: #134C00
+
+*/
+
+/*HEADER*/
+ .header {
+   background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+}
+
+ .header .indent {
+   margin: 80px;
+}
+
+.header .li {
+  float: right;
+}
+
+
+
