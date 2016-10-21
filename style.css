@@ -15,11 +15,11 @@ Text colour: #134C00
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 80px;
 }
 
  .header .indent {
-   margin: 80px;
+   margin: 20px;
 }
 
 .header .li {
@@ -47,7 +47,7 @@ Text colour: #134C00
 
 .header .logo {
  float:left;
-  width:20%;
+  position: fixed;
 }
 
 .header .logo img{
