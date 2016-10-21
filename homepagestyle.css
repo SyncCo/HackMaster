@@ -31,7 +31,7 @@ Text colour: #134C00
 
 .header .li a {
     display: block;
-    color:#18330F ;
+    color:#134C00 ;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
@@ -39,11 +39,11 @@ Text colour: #134C00
 }
 
 .header .li a:hover:not(.active) {
-    background-color: #000000;
+    background-color: white;
 }
 
 .header .active {
-    background-color: #000000;
+    background-color: white;
 }
 
 /*Logo*/
