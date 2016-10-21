@@ -26,5 +26,35 @@ Text colour: #134C00
   float: right;
 }
 
+/*Logo*/
+
+.logo {
+ height: 30px;
+}
+
+/*Text*/
+h1 {
+ font-family: 'Futura', sans-serif;
+    color: #33CF00;
+    font-size: 30pt;
+}
+ 
+h2 {
+  font-family: 'Futura', sans-serif;
+    color: #33CF00;
+    font-size: 22pt;
+}
+
+h3 {
+  font-family: 'Futura', sans-serif;
+    color: #33CF00;
+    font-size: 15pt;
+}
+
+p {
+  font-family: 'Futura', sans-serif;
+    color: #134C00;
+    font-size: 11pt;
+}
 
 
