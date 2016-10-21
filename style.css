@@ -26,6 +26,23 @@ Text colour: #134C00
   float: right;
 }
 
+.header .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    height: 32px;
+}
+
+.header .li a:hover:not(.active) {
+    background-color: #18330F;
+}
+
+.header .active {
+    background-color: #18330F;
+}
+
 /*Logo*/
 
 .header .logo {
