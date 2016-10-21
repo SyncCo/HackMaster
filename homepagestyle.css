@@ -35,15 +35,15 @@ Text colour: #134C00
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    height: 32px;
+    height: 50px;
 }
 
 .header .li a:hover:not(.active) {
-    background-color: black;
+    background-color: white;
 }
 
 .header .active {
-    background-color: white;
+    background-color: black;
 }
 
 /*Logo*/
@@ -85,6 +85,6 @@ p {
 
 /*body*/
 body {
- background-color: #707070;
+ background-color: #2E2E2E;
 }
 
