@@ -61,7 +61,7 @@ Text colour: #134C00
 /*Text*/
 h1 {
  font-family: 'Futura', sans-serif;
-    color: #33CF00;
+    color: white;
     font-weight: bold;
  text-align: center;
  
@@ -82,7 +82,7 @@ h3 {
 p {
   font-family: 'Futura', sans-serif;
     color: white;
-    font-size: 11pt;
+    font-size: 20pt;
  text-align: center;
 }
 
