@@ -50,7 +50,7 @@ Text colour: #134C00
 
 .header .logo {
  float:left;
-  position: fixed;
+
 }
 
 .header .logo img{
@@ -80,7 +80,7 @@ h3 {
 
 p {
   font-family: 'Futura', sans-serif;
-    color: #134C00;
+    color: white;
     font-size: 11pt;
 }
 
