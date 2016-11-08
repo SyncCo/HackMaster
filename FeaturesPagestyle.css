@@ -1,0 +1,81 @@
+
+/*HEADER*/
+ .header {
+   background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  text-align: center;
+}
+
+ .header .indent {
+   margin: 20px;
+}
+
+.header .li {
+  float: right;
+ font-family: 'Futura', sans-serif;
+ color: #33CF00;
+
+}
+
+.header .li a {
+    display: block;
+    color:#134C00 ;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    height: 32px;
+}
+
+.header .li a:hover:not(.active) {
+    background-color: white;
+}
+
+.header .active {
+    background-color: black;
+}
+.header .logo {
+ float:left;
+
+}
+
+.header .logo img{
+ height:50px;
+}
+p.upgrade{
+  font-size: 300%;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-width: 20px;
+    
+  border-image: url(http://66.media.tumblr.com/98d81bb4d47f1c5b1ab73bd4047b127d/tumblr_n0p811VHf11try0tbo1_1280.jpg) 30 stretch;
+  background-image: url(http://www.desktopimages.org/pictures/2012/1208/1/orig_147365.jpg);
+}
+table, th, td {
+  border-color: #DAA520 ; 
+  background-color: black;
+  border-style: solid;
+  border-width: 12px;   
+  border-collapse: collapse;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+    
+}
+  table.center {
+    width:40%; 
+    margin-left:30%; 
+    margin-right:15%;
+    
+  }
+table.color1{
+
+  -webkit-border-color: #DAA520 ;
+}
+body {
+ background-color: #2E2E2E;
+ background-image: url("Homepage1.jpg")
+}
