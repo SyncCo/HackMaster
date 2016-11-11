@@ -1,16 +1,13 @@
-
 /* Colours:
-
 Backgorund base: #242424
 Header colour: #000000
 Button text colours: #33CF00
 Text colour: #134C00
-
 */
 
 /*HEADER*/
  .header {
-   background-color: #000000;
+   background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,25 +23,25 @@ Text colour: #134C00
 .header .li {
   float: right;
  font-family: 'Futura', sans-serif;
- color: #33CF00;
+ color: #32DF00;
 
 }
 
 .header .li a {
     display: block;
-    color:#134C00 ;
+    color:#008000 ;
     text-align: center;
-    padding: 14px 20px;
+    padding: 9px 20px;
     text-decoration: none;
     height: 32px;
 }
 
 .header .li a:hover:not(.active) {
-    background-color: white;
+    background-color: #C0C0C0;
 }
 
 .header .active {
-    background-color: black;
+    background-color: white;
 }
 
 /*Logo*/
@@ -88,7 +85,12 @@ p {
 
 /*body*/
 body {
- background-color: #2E2E2E;
- background-image: url("Homepage1.jpg")
+ background-size: 100%;
+  background-color: #DCDCDC;
+ background-image: url("http://art.ngfiles.com/images/462000/462736_miechelangelo_seg-project-background-1.jpg");
+ 
 }
+
+
+
 
