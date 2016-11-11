@@ -1,7 +1,7 @@
 
 /*HEADER*/
- .header {
-   background-color: #000000;
+  .header {
+   background-color: white;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,26 +17,29 @@
 .header .li {
   float: right;
  font-family: 'Futura', sans-serif;
- color: #33CF00;
+ color: #32DF00;
 
 }
 
 .header .li a {
     display: block;
-    color:#134C00 ;
+    color:#008000 ;
     text-align: center;
-    padding: 14px 20px;
+    padding: 9px 20px;
     text-decoration: none;
     height: 32px;
 }
 
 .header .li a:hover:not(.active) {
-    background-color: white;
+    background-color: #C0C0C0;
 }
 
 .header .active {
-    background-color: black;
+    background-color: white;
 }
+
+/*Logo*/
+
 .header .logo {
  float:left;
 
@@ -45,24 +48,22 @@
 .header .logo img{
  height:50px;
 }
-p.upgrade{
-  font-size: 300%;
-  text-align: center;
-  color: white;
-  border-style: solid;
-  border-width: 20px;
-    
-  border-image: url(http://66.media.tumblr.com/98d81bb4d47f1c5b1ab73bd4047b127d/tumblr_n0p811VHf11try0tbo1_1280.jpg) 30 stretch;
-  background-image: url(http://www.desktopimages.org/pictures/2012/1208/1/orig_147365.jpg);
+
+img.one{
+  src: url("http://images.clipartpanda.com/bullet-clipart-11949946191842752801line_double_line_arrow_end.svg.hi.png");
+  width:5px;
+  height:5px;
 }
 table, th, td {
-  border-color: #DAA520 ; 
+  border-color:  #670A0A;
+  font-size:200px; 
+  font-color: #670A0A;
   background-color: black;
   border-style: solid;
+  border-radius:50px/15px;
   border-width: 12px;   
   border-collapse: collapse;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
+  line-height:40px;
     
 }
   table.center {
@@ -71,10 +72,6 @@ table, th, td {
     margin-right:15%;
     
   }
-table.color1{
-
-  -webkit-border-color: #DAA520 ;
-}
 body {
  background-color: #2E2E2E;
  background-image: url("Homepage1.jpg")
