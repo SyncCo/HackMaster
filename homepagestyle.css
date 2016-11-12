@@ -55,25 +55,51 @@ Text colour: #134C00
  height:50px;
 }
 
+/*Footer*/
+.footer {
+  background-color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  
+}
+
+.footer .li {
+  float: left;
+ font-family: 'Futura', sans-serif;
+  color: #008000;
+margin: 20px;}
+
+.footer .li2 {
+  float: right;
+ font-family: 'Futura', sans-serif;
+  color: #008000;
+padding-top: 20px;}
+
 /*Text*/
 h1 {
  font-family: 'Futura', sans-serif;
-    color: white;
+    color: #696969;
     font-weight: bold;
- text-align: center;
+ text-align: right;
+  font-size: 40px;
  
 }
  
 h2 {
   font-family: 'Futura', sans-serif;
-    color: white;
+    color: #696969;
     font-size: 22pt;
+  text-align: center;
 }
 
 h3 {
   font-family: 'Futura', sans-serif;
-    color: white;
+    color: black;
     font-size: 15pt;
+  text-align: center;
 }
 
 p {
@@ -87,9 +113,19 @@ p {
 body {
  background-size: 100%;
   background-color: #DCDCDC;
- background-image: url("http://art.ngfiles.com/images/462000/462736_miechelangelo_seg-project-background-1.jpg");
+ ;
  
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
