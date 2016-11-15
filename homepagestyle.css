@@ -83,21 +83,21 @@ h1 {
  font-family: 'Futura', sans-serif;
     color: #696969;
     font-weight: bold;
- text-align: right;
+ text-align: left;
   font-size: 40px;
  
 }
  
 h2 {
   font-family: 'Futura', sans-serif;
-    color: #696969;
+    color: white;
     font-size: 22pt;
   text-align: center;
 }
 
 h3 {
   font-family: 'Futura', sans-serif;
-    color: black;
+    color: white;
     font-size: 15pt;
   text-align: center;
 }
@@ -111,9 +111,10 @@ p {
 
 /*body*/
 body {
- background-size: 100%;
+background-image: url("Homepage24.jpg");
+  background-size: 100%;
   background-color: #DCDCDC;
- ;
+
  
 }
 
