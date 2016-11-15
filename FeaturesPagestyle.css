@@ -76,3 +76,45 @@ body {
  background-color: #2E2E2E;
  background-image: url("Homepage1.jpg")
 }
+
+.button {
+  border-radius: 4px;
+  background-color: #008000;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  display:block;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: inherit;
+  right: 0;
+}
