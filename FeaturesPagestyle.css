@@ -1,6 +1,6 @@
 
 /*HEADER*/
-  .header {
+ .header {
    background-color: white;
     position: fixed;
     top: 0;
@@ -37,6 +37,19 @@
 .header .active {
     background-color: white;
 }
+
+/*Logo*/
+
+.header .logo {
+ margin-left: 5%;
+  float:left;
+
+}
+
+.header .logo img{
+ height:50px;
+}
+
 
 /*Logo*/
 
