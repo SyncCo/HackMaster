@@ -1,6 +1,6 @@
 
 /*HEADER*/
- .header {
+  .header {
    background-color: white;
     position: fixed;
     top: 0;
@@ -16,7 +16,7 @@
 
 .header .li {
   float: right;
- font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ font-family: 'Futura', sans-serif;
  color: #32DF00;
 
 }
@@ -41,14 +41,18 @@
 /*Logo*/
 
 .header .logo {
- margin-left: 5%;
-  float:left;
+ float:left;
 
 }
 
 .header .logo img{
  height:50px;
 }
+
+img.one{
+  src: url("http://images.clipartpanda.com/bullet-clipart-11949946191842752801line_double_line_arrow_end.svg.hi.png");
+  width:5px;
+  height:5px;
 }
 table, th, td {
   border-color:  #670A0A;
@@ -60,7 +64,6 @@ table, th, td {
   border-width: 12px;   
   border-collapse: collapse;
   line-height:40px;
-   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
     
 }
   table.center {
@@ -71,5 +74,5 @@ table, th, td {
   }
 body {
  background-color: #2E2E2E;
- background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/15027919_736573313158151_7806800291936534466_n.jpg?oh=c2119e5e685433735a1d4cfc7fde4835&oe=588F89BA")
+ background-image: url("Homepage1.jpg")
 }
