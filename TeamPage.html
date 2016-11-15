@@ -2,9 +2,59 @@
 <html>
 <head>
 <style>
-		body {
+	/*HEADER*/
+ .header {
+   background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+  text-align: center;
+}
+
+ .header .indent {
+   margin: 20px;
+}
+
+.header .li {
+  float: right;
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ color: #32DF00;
+
+}
+
+.header .li a {
+    display: block;
+    color:#008000 ;
+    text-align: center;
+    padding: 9px 20px;
+    text-decoration: none;
+    height: 32px;
+}
+
+.header .li a:hover:not(.active) {
+    background-color: #C0C0C0;
+}
+
+.header .active {
+    background-color: white;
+}
+
+/*Logo*/
+
+.header .logo {
+ margin-left: 5%;
+  float:left;
+
+}
+
+.header .logo img{
+ height:50px;
+}	
+	body {
 			background-color:#2E2E2E;
-			background-image:url("https://github.com/hack-master/hack-master.github.io/blob/master/Homepage1.jpg?raw=true");
+			background-image:url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/15027919_736573313158151_7806800291936534466_n.jpg?oh=c2119e5e685433735a1d4cfc7fde4835&oe=588F89BA");
 		}
 		h1 {
     text-align: center;
@@ -42,7 +92,25 @@
 </style>	
 </head>
 <body>
-
+<div class="header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="HackMaster Logo2_burned.png" />
+          </a>
+              <div class="indent">
+            <div id="main">
+                  
+                     </div>
+            </div>
+        </div>
+            </div>
+        
+                  <div class="li"><a href="PricePage.html"><b>PRICES</b></a></div>
+                   <div class="li"><a href="TeamPage.html"><b>MEET THE TEAM</b></a></div>
+                  <div class="li"><a href="FeaturesPage.html"><b>FEATURES</b></a></div>
+           
+        </div>
 <h1>Team Talk</h1>
 <h2>About us</h2>
 <h3>Meet The Team</h3>
