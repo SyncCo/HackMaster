@@ -22,7 +22,7 @@ Text colour: #134C00
 
 .header .li {
   float: right;
- font-family: 'Futura', sans-serif;
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
  color: #32DF00;
 
 }
@@ -47,7 +47,8 @@ Text colour: #134C00
 /*Logo*/
 
 .header .logo {
- float:left;
+ margin-left: 5%;
+  float:left;
 
 }
 
@@ -58,7 +59,7 @@ Text colour: #134C00
 /*Footer*/
 .footer {
   background-color: white;
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -68,36 +69,36 @@ Text colour: #134C00
 
 .footer .li {
   float: left;
- font-family: 'Futura', sans-serif;
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: #008000;
 margin: 20px;}
 
 .footer .li2 {
   float: right;
- font-family: 'Futura', sans-serif;
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   color: #008000;
 padding-top: 20px;}
 
 /*Text*/
 h1 {
- font-family: 'Futura', sans-serif;
-    color: #696969;
+ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: #FFFAFA;
     font-weight: bold;
- text-align: right;
-  font-size: 40px;
+ text-align: center;
+  font-size: 100px;
  
 }
  
 h2 {
-  font-family: 'Futura', sans-serif;
-    color: #696969;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: white;
     font-size: 22pt;
   text-align: center;
 }
 
 h3 {
-  font-family: 'Futura', sans-serif;
-    color: black;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    color: white;
     font-size: 15pt;
   text-align: center;
 }
@@ -111,22 +112,52 @@ p {
 
 /*body*/
 body {
- background-size: 100%;
+background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t1.0-9/15027919_736573313158151_7806800291936534466_n.jpg?oh=c2119e5e685433735a1d4cfc7fde4835&oe=588F89BA");
+  background-size: 100%;
   background-color: #DCDCDC;
- ;
+
  
 }
 
+/*button*/
+.button {
+  border-radius: 4px;
+  background-color: #008000;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:auto;
+  display:block;
+  
+}
 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
 
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
 
+.button:hover span {
+  padding-right: 25px;
+}
 
-
-
-
-
-
-
-
-
-
+.button:hover span:after {
+  opacity: inherit;
+  right: 0;
+}
